@@ -125,7 +125,7 @@ def make_chart(df: pd.DataFrame, support: float, resistance: float) -> go.Figure
     return fig
 
 
-st.title("📱 주식 차트 확률 예측기")
+st.title("📱 주식")
 st.markdown('<div class="small-muted">V5 Mobile · 휴대폰 화면 최적화</div>', unsafe_allow_html=True)
 
 with st.form("analysis_form", clear_on_submit=False):

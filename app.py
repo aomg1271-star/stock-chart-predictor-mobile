@@ -9,7 +9,7 @@ import streamlit as st
 from stock_engine import analyze_ticker, fetch_price_data
 
 st.set_page_config(
-    page_title="주식 차트 확률 예측기 Mobile",
+    page_title="주식",
     page_icon="📱",
     layout="centered",
     initial_sidebar_state="collapsed",
